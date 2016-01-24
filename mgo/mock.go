@@ -30,3 +30,9 @@ func chk_mock(key string) bool {
 		return false
 	}
 }
+
+func ClearMock() {
+	MckC = map[string]int{}
+	mckc = map[string]int{}
+	MckV = map[string]interface{}{}
+}
